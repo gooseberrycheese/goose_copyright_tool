@@ -12,7 +12,6 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Various view specific methods for application I use}
   spec.description   = %q{Provides generated HTML data gor Tails applications}
   spec.homepage      = "https://devcamp.com"
-  spec.liscence      = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
